@@ -1,0 +1,189 @@
+{
+	"id": "lancer-lite-compendium",
+	"name": "lancer-lite-compendium",
+	"title": "Lancer Lite: Compendium",
+	"description": "Lancer content for the Lancer Lite Foundry VTT System",
+	"version": "1.0.0",
+	"authors": [
+		{
+			"name": "Max Williams",
+			"discord": "wrenchykenku",
+			"url": "https://github.com/citrus-thunder"
+		}
+	],
+	"compatibility": {
+		"minimum": "11",
+		"verified": "11",
+		"maximum": "11"
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id": "lancer-lite",
+				"type": "system",
+				"manifest": "https://github.com/citrus-thunder/lancer-lite-foundryvtt/releases/latest/download/system.json",
+				"compatibility": {
+					"minimum": "1.0.0-alpha.3",
+					"verified": "1.0.0-alpha.3"
+				}
+			}
+		]
+	},
+	"packs": [
+		{
+			"name": "frame",
+			"label": "Mech Frames",
+			"path": "packs/frame",
+			"system": "lancer-lite",
+			"type": "Actor"
+		},
+		{
+			"name": "npc_mech",
+			"label": "NPC Mechs",
+			"path": "packs/npc_mech",
+			"system": "lancer-lite",
+			"type": "Actor"
+		},
+		{
+			"name": "armor",
+			"label": "Pilot Armor",
+			"path": "packs/armor",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "core_bonus",
+			"label": "Core Bonuses",
+			"path": "packs/core_bonus",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "pilot_gear",
+			"label": "Pilot Gear",
+			"path": "packs/pilot_gear",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "mech_gear",
+			"label": "Mech Gear",
+			"path": "packs/mech_gear",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "license",
+			"label": "Licenses",
+			"path": "packs/license",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "reaction",
+			"label": "Reactions",
+			"path": "packs/reaction",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "core_system",
+			"label": "Core Systems",
+			"path": "packs/core_system",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "system",
+			"label": "Systems",
+			"path": "packs/system",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "talent",
+			"label": "Talents",
+			"path": "packs/talent",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "trait",
+			"label": "Traits",
+			"path": "packs/trait",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "trigger",
+			"label": "Triggers",
+			"path": "packs/trigger",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "pilot_weapon",
+			"label": "Pilot Weapons",
+			"path": "packs/pilot_weapon",
+			"system": "lancer-lite",
+			"type": "Item"
+		},
+		{
+			"name": "mech_weapon",
+			"label": "Mech Weapons",
+			"path": "packs/mech_weapon",
+			"system": "lancer-lite",
+			"type": "Item"
+		}
+	],
+	"packFolders": [
+		{
+			"name": "Lancer",
+			"sorting": "m",
+			"folders": [
+				{
+					"name": "Mech Frames",
+					"sorting": "m",
+					"packs": [
+						"frame",
+						"npc_mech"
+					]
+				},
+				{
+					"name": "Mech Equipment",
+					"sorting": "m",
+					"packs": [
+						"core_system",
+						"trait",
+						"system",
+						"mech_weapon",
+						"reaction",
+						"mech_gear"
+					]
+				},
+				{
+					"name": "Pilot Equipment",
+					"sorting": "m",
+					"packs": [
+						"core_bonus",
+						"license",
+						"talent",
+						"trigger",
+						"pilot_weapon",
+						"armor",
+						"pilot_gear"
+					]
+				}
+			]
+		}
+	],
+	"manifest": "https://github.com/citrus-thunder/lancer-lite-foundryvtt-compendium/releases/latest/download/system.json",
+	"download": "https://github.com/citrus-thunder/lancer-lite-foundryvtt-compendium/releases/latest/download/lancer-lite.zip",
+	"media": [
+		{
+			"type": "setup",
+			"url": "systems/lancer-lite/assets/lancer-splash.jpg",
+			"thumbnail": "systems/lancer-lite/assets/lancer-splash.jpg"
+		}
+	]
+}
